@@ -6,9 +6,9 @@ function Resume() {
             <h1 id="resume">Resume</h1>
             <br/>
             <div className="container">
-                <div className="row">
-                <a href="./images/Resume.pdf" download>
-                    <button type="button"className="btn btn-primary">DownloadMe</button>
+                <div className="row justify-content-center">
+                <a href="./images/Resume.pdf" style={{width: "30%"}} download type="button" className="btn btn-primary">
+                        DownloadMe
                 </a>
                 </div>
                 <br/>

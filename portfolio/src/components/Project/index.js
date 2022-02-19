@@ -12,15 +12,15 @@ function ProjectCard({project}) {
 
 console.log(name);
     return (
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '18rem'}} className="d-flex align-items-stretch h-100">
         <Card.Img variant="top" src={img} />
-        <Card.Body>
+        <Card.Body className="d-flex flex-column">
             <Card.Title>{name}</Card.Title>
-            <Card.Text>
+            <Card.Text className="mb-4">
             {description}
             </Card.Text>
-            <Button href={deployed} variant="primary">Check Me Out!</Button>
-            <Button href={github} variant="primary">Github Repo</Button>
+            <Button href={deployed} variant="primary" >Check Me Out!</Button>
+            <Button href={github} variant="secondary" >Github Repo</Button>
         </Card.Body>
         </Card>
     );
