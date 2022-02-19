@@ -34,25 +34,25 @@ const [projects] = useState([
         img: './images/skipt_photo.png'
     },
     {
-        name: 'Project 1',
-        github: 'commercial',
-        deployed: 'test description',
-        description: 'description',
-        img: './images/0.jpg'
+        name: 'Weather Tracker',
+        github: 'https://github.com/mkohn4/weather-tracker',
+        deployed: 'https://mkohn4.github.io/weather-tracker/',
+        description: 'A Weather Dashboard to check current weather in any city and 5 day forecast',
+        img: './images/weather-dashboard.png'
     },
     {
-        name: 'Project 1',
-        github: 'commercial',
-        deployed: 'test description',
-        description: 'description',
-        img: './images/0.jpg'
+        name: 'WorkDay Scheduler',
+        github: 'https://github.com/mkohn4/scheduler',
+        deployed: 'https://mkohn4.github.io/scheduler/',
+        description: 'Scheduling Application to plan your day hour by hour',
+        img: './images/work-day-scheduler.png'
     },
     {
-        name: 'Project 1',
-        github: 'commercial',
-        deployed: 'test description',
-        description: 'description',
-        img: './images/0.jpg'
+        name: 'Password Generator',
+        github: 'https://github.com/mkohn4/password-generator',
+        deployed: 'https://mkohn4.github.io/password-generator/',
+        description: 'A Secure Password generator application',
+        img: './images/password.png'
     }
 ])
 

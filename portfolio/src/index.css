@@ -27,6 +27,10 @@ h1 {
   text-align: center;
 }
 
+.btn-primary {
+  margin: 5px !important;
+}
+
 @media (max-width: 575px) {
   .card {
     width: 30rem !important;

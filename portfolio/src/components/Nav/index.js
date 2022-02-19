@@ -12,29 +12,27 @@ function Nav(props) {
 
     return(
         <nav className="navbar navbar-light justify-content-center">
-                <ul className="nav nav-tabs">
-                <li className='nav-item'>
-                        <a href="#about" data-testid="about" className="nav-link" onClick={() => setCurrentCategory(categories[0])}>
+                        <a href="#about" data-testid="about" className="navbar-brand" onClick={() => setCurrentCategory(categories[0])}>
                             Max's Portfolio Site
                         </a>
-                    </li>
+                <ul className="nav nav-tabs">
                     <li className='nav-item'>
-                        <a href="#about" data-testid="about" className="nav-link" onClick={() => setCurrentCategory(categories[0])}>
+                        <a href="#about" data-testid="about" className={currentCategory === categories[0] ? 'nav-link active' : 'nav-link'} onClick={() => setCurrentCategory(categories[0])}>
                             About me
                         </a>
                     </li>
                     <li className='nav-item'>
-                        <a href="#portfolio" data-testid="portfolio" className="nav-link" onClick={() => setCurrentCategory(categories[1])}>
+                        <a href="#portfolio" data-testid="portfolio" className={currentCategory === categories[1] ? 'nav-link active' : 'nav-link'} onClick={() => setCurrentCategory(categories[1])}>
                             Portfolio
                         </a>
                     </li>
                     <li className='nav-item'>
-                        <a href="#contact" data-testid="contact-me" className="nav-link" onClick={() => setCurrentCategory(categories[2])}>
+                        <a href="#contact" data-testid="contact-me" className={currentCategory === categories[2] ? 'nav-link active' : 'nav-link'} onClick={() => setCurrentCategory(categories[2])}>
                             Contact Me
                         </a>
                     </li>
                     <li className='nav-item'>
-                        <a href="#resume" data-testid="resume" className="nav-link" onClick={() => setCurrentCategory(categories[3])}>
+                        <a href="#resume" data-testid="resume" className={currentCategory === categories[3] ? 'nav-link active' : 'nav-link'} onClick={() => setCurrentCategory(categories[3])}>
                             Resume
                         </a>
                     </li>
