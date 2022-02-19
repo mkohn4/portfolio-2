@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card-img-top {
+  max-height: 12rem;
+}
+.card {
+  height: 23rem;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+h1 {
+  text-align: center;
+}
+
+@media (max-width: 575px) {
+  .card {
+    width: 30rem !important;
+  }
+  
+}
