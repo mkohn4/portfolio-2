@@ -1,6 +1,3 @@
-# portfolio-2
-
-
 # React Portfolio Project
 
 ## Table of Contents
