@@ -66,7 +66,8 @@ const [projects] = useState([
                 <Col>
                 <CardGroup>
                 <ProjectCard
-                    project={project}>
+                    project={project}
+                    key={project.github}>
                     </ProjectCard>
                     </CardGroup>
                  </Col>

@@ -1,17 +1,17 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 
 function Nav(props) {
+
 
     const {
         categories,
         setCurrentCategory,
         currentCategory
     } = props;
-
-
+//if openMenu = 0, menu is closed, else menu open
     return(
-        <nav className="navbar navbar-light justify-content-center">
+        <nav className="nav navbar-light bg-light">
                         <a href="#about" data-testid="about" className="navbar-brand" onClick={() => setCurrentCategory(categories[0])}>
                             Max's Portfolio Site
                         </a>
@@ -37,7 +37,7 @@ function Nav(props) {
                         </a>
                     </li>
                 </ul>
-                </nav>
+        </nav>
     );
 }
 
