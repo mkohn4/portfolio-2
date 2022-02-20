@@ -11,11 +11,11 @@ function Nav(props) {
     } = props;
 //if openMenu = 0, menu is closed, else menu open
     return(
-        <nav className="nav navbar-light bg-light">
+        <nav className="nav nav-tabs navbar-light bg-light">
                         <a href="#about" data-testid="about" className="navbar-brand" onClick={() => setCurrentCategory(categories[0])}>
                             Max's Portfolio Site
                         </a>
-                <ul className="nav nav-tabs">
+                <ul className="nav">
                     <li className='nav-item'>
                         <a href="#about" data-testid="about" className={currentCategory === categories[0] ? 'nav-link active' : 'nav-link'} onClick={() => setCurrentCategory(categories[0])}>
                             About me
