@@ -5,7 +5,7 @@ import Portfolio from './pages/Portfolio';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
-
+import Footer from './components/Footer';
 
 
 function App() {
@@ -37,6 +37,7 @@ function App() {
         ):
         (<About></About>)
         }
+        <Footer></Footer>
       </main>
     </div>
   );

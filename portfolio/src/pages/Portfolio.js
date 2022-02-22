@@ -57,7 +57,7 @@ const [projects] = useState([
 ])
 
     return (
-        <section className="my-5">
+        <section className="container">
             <h1 id="portfolio">Portfolio</h1>
             <>
             <Container>

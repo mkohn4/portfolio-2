@@ -25,16 +25,31 @@ code {
 .card-body {
   justify-content: space-between;
 }
-
-
 /*Card Styles -- end*/
+/*Footer Styles -- Start*/
+.icons a img{
+  width: 32px !important;
+  height: 32px !important;
+}
 
+footer {
+  position: absolute !important;
+  bottom: 0 !important;
+  width: 100% !important;
+}
+
+main {
+  position: relative;
+  min-height: 100vh;
+}
+/*Footer Styles -- END*/
 
 /*Set page headings to center -- start*/
 h1 {
   text-align: center;
 }
 /*Set page headings to center -- end*/
+/*set about page styles -- start*/
 
 
 
