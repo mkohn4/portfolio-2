@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 // Here we import a helper function that will check if the email is valid
 import {validateEmail} from '../../utils/helpers';
@@ -9,9 +9,11 @@ function Form() {
   const [email, setEmail] = useState('');
   const [name, setName] = useState('');
   const [message, setMessage] = useState('');
-  // TODO: Create a password variable and a function "setPassword" using useState
 
   const [errorMessage, setErrorMessage] = useState('');
+
+
+
 
   const handleInputChange = (e) => {
     // Getting the value and name of the input which triggered the change
@@ -21,10 +23,10 @@ function Form() {
     const inputValue = target.value;
 
     // Based on the input type, we set the state of either email, username, and password
-    // TODO: Add an else statement to the end that will set the password to the value of 'inputValue'
 
     if (inputType === 'email') {
-      setEmail(inputValue);
+            setEmail(inputValue);
+
     }
     if (inputType === 'name') {
       setName(inputValue);
