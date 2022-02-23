@@ -12,8 +12,16 @@ function Form() {
 
   const [errorMessage, setErrorMessage] = useState('');
 
+//figure out why this isnt evaluating state changes
+const handleEmail = (e) => {
+    console.log(e.target.value);
+    if (validateEmail(e.target.value)) {
+      setErrorMessage('');
+    } else {
+      setErrorMessage('Invalid Email');
+    }
 
-
+}
 
   const handleInputChange = (e) => {
     // Getting the value and name of the input which triggered the change
@@ -66,7 +74,7 @@ function Form() {
             id="name" 
             type="name" 
             placeholder="Name" 
-            value={name} 
+            defaultValue={name} 
             onChange={handleInputChange}
             name="name"/>
         </div>
@@ -74,9 +82,10 @@ function Form() {
         <div className="mb-3">
             <label className="form-label" htmlFor="email">Email Address</label>
             <input
-          value={email}
+          defaultValue={email}
           name="email"
           onChange={handleInputChange}
+          onBlur={handleEmail}
           type="email"
           placeholder="Email"
           className="form-control"
@@ -90,7 +99,7 @@ function Form() {
             id="message" 
             type="message" 
             placeholder="Message" 
-            value={message}
+            defaultValue={message}
             onChange={handleInputChange}
             name="message"
             ></textarea>

@@ -11,6 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/*Add padding to container for footer --start*/
+.container {
+  padding-bottom: 60px !important;
+}
+/*Add padding to container for footer --end*/
+
+
 /*Card Styles -- start*/
 .card-img-top {
   width: 200px;
@@ -33,15 +41,16 @@ code {
 }
 
 footer {
-  position: absolute !important;
+  position: fixed !important;
   bottom: 0 !important;
   width: 100% !important;
+  height: 60px !important;
 }
 
-main {
+/*main {
   position: relative;
   min-height: 100vh;
-}
+}*/
 /*Footer Styles -- END*/
 
 /*Set page headings to center -- start*/

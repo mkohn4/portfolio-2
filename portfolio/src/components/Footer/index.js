@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="w-100 mt-auto bg-secondary p-4 d-flex justify-content-between ">
+    <footer className="w-100 mt-auto bg-secondary p-3 d-flex justify-content-between">
         <div className="icons d-flex justify-content-between w-10">
             <a href="https://github.com/mkohn4">
                 <img src="./images/GitHub.png" alt="Max Github"/>
