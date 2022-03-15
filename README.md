@@ -17,6 +17,8 @@
 
 This is a project to showcase an understanding of useState and more importantly React and React Bootstrap to create a portfolio showcase of previous projects
 
+Deployed App: https://mkohn4.github.io/portfolio-2/
+
 ## Screenshot
 
 ![Portfolio Screenshot](./portfolio/public/images/portfolio_screenshot.png)
