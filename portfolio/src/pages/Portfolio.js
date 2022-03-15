@@ -53,6 +53,13 @@ const [projects] = useState([
         deployed: 'https://mkohn4.github.io/password-generator/',
         description: 'A Secure Password generator application',
         img: './images/password.png'
+    },
+    {
+        name: 'Keep',
+        github: 'https://github.com/mkohn4/keep',
+        deployed: 'https://ancient-depths-61432.herokuapp.com/',
+        description: 'A To-Do Application to keep track of To-Dos and Dones',
+        img: './images/Keep.png'
     }
 ])
 
